@@ -1,5 +1,5 @@
 CREATE DATABASE dbSchool;
-Use dbSchool;
+Use dbSchool; -- Select the database to use for creating tables
 
 -- Create a table named tblStudents
 -- syntax: CREATE TABLE table_name (column1 datatype, column2 datatype, ...);
