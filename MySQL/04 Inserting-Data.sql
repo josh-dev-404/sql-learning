@@ -13,6 +13,6 @@ Create table tblStudents (
 -- syntax: INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...);
 
 INSERT INTO tblStudents
-(student_id, first_name, last_name, date_of_birth, email) values
-(1,"Josh","devx", "2005-01-29", "josh@gmail.com"),
-(2,"J","404", "2005-01-21", "james@gmail.com");
+(first_name, last_name, date_of_birth, email) values
+("Josh","devx", "2005-01-29", "josh@gmail.com"),
+("J","404", "2005-01-21", "james@gmail.com");
