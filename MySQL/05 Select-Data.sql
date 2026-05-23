@@ -16,6 +16,15 @@ INSERT INTO tblStudents (student_id,first_name,last_name,date_of_birth,email) va
 
 -- Select all data from the table "tblStudents"
 SELECT * FROM tblStudents;
+-- output:
+-- student_id | first_name | last_name | date_of_birth | email
+-- 1          | Josh       | devx      | 2005-01-29    | josh@gmail.com
+-- 2          | J          | 404       | 2005-01-21    | james@gmail.com
+
 
 -- Select specific columns from the table "tblStudents"
 SELECT first_name, last_name FROM tblStudents;
+-- output:
+-- first_name | last_name
+-- Josh       | devx
+-- J          | 404
