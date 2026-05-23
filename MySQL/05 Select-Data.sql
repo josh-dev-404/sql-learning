@@ -1,4 +1,5 @@
-
+CREATE DATABASE dbSchool;
+USE dbSchool;
 
 Create table tblStudents (
     student_id INT PRIMARY KEY AUTO_INCREMENT,
