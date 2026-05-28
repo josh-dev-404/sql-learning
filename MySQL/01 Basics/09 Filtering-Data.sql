@@ -12,7 +12,12 @@ USE dbProduct;
     ("Ballpen", 20, 10),
     ("Notebook", 30, 20),
     ("Tape", 24, 17);
-    
+
+/*
+Filter data is a way to retrieve specific records 
+from a table based on certain conditions.
+*/
+-- The "WHERE" clause is used to specify the conditions for filtering data.
 SELECT * FROM tblProduct WHERE product_name = "Ballpen";
 -- output:
 -- product_id | product_name | quantity | price
